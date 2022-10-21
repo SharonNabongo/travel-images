@@ -1,0 +1,51 @@
+/* .body{ */
+    /* display: flex; */
+    /* align-items: center; */
+    /* height: 100vh; */
+    /* justify-content: center; */
+/* } */
+.panel{
+height: 5vh;
+margin: 10px;
+border-radius: 50px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+flex: 0.5;
+position: relative;
+color: #fff;
+cursor: pointer;
+transition: all 1000ms ease-in;
+}
+.panel.active{
+    height: 70vh;
+}
+.panel.active h2{
+    opacity: 1;
+    transition: opacity 1s ease-in 1.2s;
+}
+.panel h2{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+    color: bisque;
+}
+.container{
+height: 95vh;
+}
+#image-1{
+    background-image: url(./IMG_8293.jpg)
+}
+#image-2{
+    background-image: url(./IMG_6025.jpg)
+}
+#image-3{
+    background-image: url(./IMG_8293.jpg)
+}
+#image-4{
+    background-image: url(./_DSC1005.jpg)
+}
+#image-5{
+    background-image: url(./_DSC0912.jpg)
+}
